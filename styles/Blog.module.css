@@ -1,0 +1,80 @@
+/* styles/Blog.module.css */
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .tag {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .tag h1 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .tag h2 {
+    font-size: 2rem;
+    color: #666;
+    margin-bottom: 2rem;
+  }
+  
+  .posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .post {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .post h3 {
+    font-size: 1.5rem;
+    color: #0070f3;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .post p {
+    color: #555;
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  
+  .date {
+    font-size: 0.875rem;
+    color: #999;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .link:hover h3 {
+    color: #0056b3;
+  }
+  

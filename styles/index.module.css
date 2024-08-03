@@ -1,0 +1,35 @@
+.logo{
+    padding: 10px 20px;
+}
+.logo:hover{
+    background-color: gray;
+    color: white;
+    border-radius: 10px
+}
+
+@media (max-width: 420px) {
+    .component {
+      padding: 3rem 0; /* Adjust padding */
+    }
+  
+    .HowToApplyPage_section-title__wuN3V {
+      font-size: 4rem; /* Reduce font size */
+      margin-bottom: 1.5rem; /* Adjust margin */
+    }
+  
+    .HowToApplyPage_sub-title__TX_sS {
+      font-size: 1.5rem; /* Reduce font size */
+      margin-bottom: 1.5rem; /* Adjust margin */
+    }
+  
+    .HowToApplyPage_create-profile__X4yCk p,
+    .btn-and-text-wrapper .cta {
+      font-size: 1.4rem; /* Adjust font size */
+      margin-bottom: 1.5rem; /* Adjust margin */
+    }
+  
+    .btn-and-text-wrapper .cta {
+      padding: 0.8rem 2rem; /* Adjust padding */
+      width: auto; /* Adjust width */
+    }
+  }

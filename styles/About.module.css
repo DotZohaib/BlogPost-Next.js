@@ -1,0 +1,22 @@
+#body{
+    width: 100vw;
+    height: 43vw;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+    #tag{
+      width: 70vw;
+  align-items: center;
+    display: flex;
+    flex-direction: column;
+    }
+  #body h1{
+    font-size: 40px;
+    font-style: italic;
+    color: blue;
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+
+  
